@@ -43,10 +43,11 @@ header {
 main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .movie {
-  width: 300px;
+  width: 290px;
   margin: 1rem;
   background-color: var(--secondary-color);
   position: relative;
@@ -65,6 +66,7 @@ main {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.2rem;
 }
 
 .movie_infor h3 {
@@ -92,7 +94,7 @@ main {
 
 .overview {
   background-color: #ffff;
-  padding: 1rem;
+  padding: 2rem;
   position: absolute;
   left: 0;
   bottom: 0;
